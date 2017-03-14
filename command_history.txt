@@ -1,0 +1,126 @@
+    1  shutdown -r now
+    2  whoami
+    3  ipconfig
+    4  ifconfig
+    5  ping www.yahoo.com
+    6  man wifi
+    7  man wi-fui
+    8  startx
+    9  ls /dev
+   10  find
+   11  cd /etc
+   12  find
+   13  find | grep eth0
+   14  find | grep eth
+   15  find | grep net
+   16  vi init/networking.conf 
+   17  ls
+   18  shutdown -h now
+   19  cd /etc
+   20  find | grep wlan0
+   21  cd /
+   22  find | grep wlan0
+   23  find | grep wlan0 | less
+   24  exit
+   25  vi /etc/network/interfaces
+   26  vim  /etc/network/interfaces
+   27  vi  /etc/network/interfaces
+   28  shutdown -r now
+   29  shutdown -h now
+   30  cd /usr/src/
+   31  ls
+   32  mkdir RPi.GPIO
+   33  cd RPi.GPIO/
+   34  ls
+   35  wget https://pypi.python.org/packages/source/R/RPi.GPIO/RPi.GPIO-0.5.4.tar.gz .
+   36  ls
+   37  tar -xzvf RPi.GPIO-0.5.4.tar.gz 
+   38  ls
+   39  mv RPi.GPIO-0.5.4 ..
+   40  cd ..
+   41  ls
+   42  rm -rf RPi.GPIO
+   43  ls
+   44  cd RPi.GPIO-0.5.4/
+   45  ls
+   46  python setup.py install
+   47  aptitude search python
+   48  aptitude search python | less
+   49  aptitude search python | less
+   50  aptitude install pyther2.7-dev
+   51  aptitude install python2.7-dev
+   52  python setup.py install
+   53  exit
+   54  vim /usr/include/linux/fs.h
+   55  exit
+   56  cpan -i OpenGL
+   57  aptitude install opengl
+   58  aptitude search opengl
+   59  aptitude install libopengl-perl\
+   60  aptitude install libopengl-perl
+   61  cpan -i HiPi
+   62  exit
+   63  ntptime --help
+   64  aptitude search ntpdate
+   65  aptitude install ntpdate
+   66  ntpdate time.apple.com
+   67  date
+   68  vi /etc/timezone 
+   69  man timezone
+   70  timezone
+   71  tz
+   72  vi /etc/ntp.conf 
+   73  vi /etc/timezone
+   74  find / | grep UTC
+   75  vi /etc/timezone 
+   76  sudo vim /etc/timezone
+   77  ntpdate time.apple.com
+   78  ls /etc/init.d/ntp status
+   79  service ntp status
+   80  sudo service ntp restart
+   81  date
+   82  ntpdate time.apple.com
+   83  date
+   84  ntpdate --help
+   85  ls /etc/ntp.conf 
+   86  vi /etc/ntp.conf 
+   87  perl -v
+   88  cpan -i HiPi
+   89  sudo cpan -i HiPi
+   90  cpan -i HiPi
+   91  cpan
+   92  cpan -i HiPi
+   93  cpan -i HiPi
+   94  cpan -i OpenGL
+   95  startx
+   96  shutdown -h now
+   97  shutdown -h now
+   98  exit
+   99  exit
+  100  useradd travis
+  101  passwd travis
+  102  sudo su -
+  103  su - tchase
+  104  su - travis
+  105  visudo
+  106  visudo
+  107  su - travis
+  108  exit
+  109  passwd
+  110  shutdown -h now
+  111  passwd
+  112  exit
+  113  exit
+  114  shutdown -h now
+  115  shutdown -h now
+  116  shutdown -h now
+  117  shutdown -h now
+  118  shutdown -h now
+  119  apt-get --help
+  120  aptitude --help
+  121  aptitude --help | less
+  122  aptitude search vim
+  123  aptitude install vim
+  124  man aptitude
+  125  history | less
+  126  history > /home/pi/projects/gpio/command_history.txt
